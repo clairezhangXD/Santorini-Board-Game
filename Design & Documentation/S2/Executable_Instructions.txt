@@ -1,0 +1,34 @@
+Executable Instructions (On IntelliJ on MacOS and Windows)
+
+Setting up Artifacts so IntelliJ knows you want to build a .jar executable:
+
+1. First, mark the images directory as “Resources root” by right clicking the directory, navigating to “Mark Directory as” and selecting 
+“Resources root”.
+2. Click on "File" (top of screen) -> "Project Structure"
+3. Once inside click on Artifacts and at the top click on the "+"
+4. Click JAR -> "From modules with dependencies..."
+5. Click on "Module:" -> "Project"
+6. Enter after “Main Class” -> “Santorini”
+7. Directory for META-INF/MANIFEST.MF-> point to the /out directory, in my case this would be: C:\Users\maymc\Documents\FIT3077\project\out
+8. Select “OK”
+9. Under “Output Layout” click the + symbol, and select “Directory Content”, and then select the images directory. Your classpath will look 
+similar to this: C:\Users\maymc\Documents\FIT3077\project\images
+10. Click “OK”
+11. Click "Apply" -> "OK"
+
+Once you are ready to compile the Java files and create the .jar file:
+
+6. Click "Build" (top of screen) -> "Build Artifacts..." -> "Project:jar" -> "Build"
+
+The .jar file will now be created and saved depending on where you saved the repository
+
+To run the executable:
+1. Open up a terminal of your choice
+2. Go to the directory where the repository is saved (in my case I would run the command: cd Documents/FIT3077/project/out/artifacts/project_jar/project.jar)
+3. Enter the command: java -jar project.jar
+
+This should begin the game in a pop up window
+
+Note: Ensure you have the following java version and JRE
+Java version: openjdk 15.0.10 2023-01-17
+JRE: Amazon Corretto 15.0.2
