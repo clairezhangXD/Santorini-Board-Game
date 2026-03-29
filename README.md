@@ -5,6 +5,7 @@ Move and build your way to victory in this game of strategy.
 
 ## Rules
 This virtual implementation of the game follows these original rules:
+
 ![img_1.png](img_1.png)
 ![img_2.png](img_2.png)
 
