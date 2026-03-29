@@ -32,15 +32,6 @@ their clock pauses and the clock starts for the opponent. If a player's timer ru
 
 ![img.png](img.png)
 
-## Claire's Takeaways
-Concepts applied/learned in this project:
-* Java (JavaSwing)
-* Object-oriented programming
-* Design patterns (Template method, Strategy & Decorator)
-* Domain, UML & sequence diagrams
-* Software design principles (SOLID and DRY)
-* CRC cards
-
 ## Instructions to create executable of Santorini (Sprint 3.jar) In Intellij IDEA IDE on MacOS:
 
 1. Mark "src" directory as Sources root, and “images” directory as Resources root
@@ -71,3 +62,12 @@ JDK version: Eclipse Temurin JDK 24 (aarch64)
 Architecture: ARM64 (Apple Silicon)
 
 JRE Version (for running): Java Runtime Environment 24 
+
+## Claire's Takeaways
+Concepts applied/learned in this project:
+* Java (JavaSwing)
+* Object-oriented programming
+* Design patterns (Template method, Strategy & Decorator)
+* Domain, UML & sequence diagrams
+* Software design principles (SOLID and DRY)
+* CRC cards
