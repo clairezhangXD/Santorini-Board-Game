@@ -3,6 +3,8 @@ A santorini inspired board game with additional challenges!
 
 Move and build your way to victory in this game of strategy.
 
+Built the base game with 3 lovely teammates, additional features were implemented myself.
+
 ## Rules
 This virtual implementation of the game follows these original rules:
 
